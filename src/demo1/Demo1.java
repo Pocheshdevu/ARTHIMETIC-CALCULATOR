@@ -12,15 +12,15 @@ public class Demo1 {
 		  
 		    public static void main(String[] args)
 		    {
-		        // stores two numbers
+		       
 		        double num1, num2;
 		  
-		        // Take input from the user
+		        
 		        Scanner sc = new Scanner(System.in);
 		  
 		        System.out.println("Enter the numbers");
 		  
-		        // take the inputs
+		       
 		        num1 = sc.nextDouble();
 		  
 		        num2 = sc.nextDouble();
@@ -33,28 +33,28 @@ public class Demo1 {
 		  
 		        switch (op) {
 		  
-		        // case to add two numbers
+		        
 		        case '+':
 		  
 		            o = num1 + num2;
 		  
 		            break;
 		  
-		        // case to subtract two numbers
+		       
 		        case '-':
 		  
 		            o = num1 - num2;
 		  
 		            break;
 		  
-		        // case to multiply two numbers
+		       
 		        case '*':
 		  
 		            o = num1 * num2;
 		  
 		            break;
 		  
-		        // case to divide two numbers
+		       
 		        case '/':
 		  
 		            o = num1 / num2;
@@ -72,7 +72,7 @@ public class Demo1 {
 		  
 		        System.out.println();
 		  
-		        // print the final result
+		        
 		        System.out.println(num1 + " " + op + " " + num2
 		                           + " = " + o);
 		    }
